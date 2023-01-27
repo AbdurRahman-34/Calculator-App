@@ -22,7 +22,7 @@
     height: 60px;
     width: 60px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 24px;
     color: #fff;
     cursor: pointer;
     margin: 10px;
@@ -63,7 +63,6 @@ form input.operator{
     }
     .container {
         align-items: end;
-        padding-bottom: 22px;
     }
 }
 @media only screen and (max-width: 425px){
