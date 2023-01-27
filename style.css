@@ -12,21 +12,22 @@
     justify-content: center;
 }
 .calculator{
-    background: #3B4455;
+    background: #222433;
     padding: 20px;
     border-radius: 10px;
 }
 
 .calculator form input{
-    border: 0;
+    border: 1px solid #222433;
     outline: 0;
     height: 60px;
     width: 60px;
     border-radius: 10px;
     font-size: 20px;
-    color: #333;
+    color: #fff;
     cursor: pointer;
     margin: 10px;
+    background-color: #2D2E42;
 }
 form .display{
     display: flex;
@@ -42,4 +43,7 @@ form .display input{
 }
 form input.equal{
     width: 145px;
+}
+form input.operator{
+    color: #50D8C9;
 }
