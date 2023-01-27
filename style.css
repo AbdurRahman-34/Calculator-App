@@ -47,4 +47,25 @@ form input.operator{
     color: #50D8C9;
 }
 
-
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+	.calculator {
+        padding: 0px !important;
+    }
+    .calculator form input {
+        width: 72px;
+        margin: 5px;
+    }
+    form input.equal {
+        width: 157px !important;
+    }
+    .container {
+        align-items: end;
+        padding-bottom: 22px;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}
